@@ -1,7 +1,18 @@
 aid: biobot-analytics
 name: Biobot Analytics
-description: Biobot Analytics is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Biobot Analytics is a wastewater intelligence company that measures human
+  health signals in sewage to deliver population-level public health data.
+  Founded out of MIT in 2017, Biobot analyzes wastewater samples for pathogens
+  (SARS-CoV-2, influenza, RSV, mpox), substances (opioids and other drugs), and
+  other biomarkers, turning them into de-identified, community-scale
+  intelligence. It serves federal government, state and local government,
+  pharmaceutical and life-science organizations, healthcare systems, and
+  wastewater treatment plants, who access results and dashboards through
+  Biobot's customer data-exploration platform. Biobot is a venture-backed
+  company in the DCVC portfolio. This profile currently exposes no public
+  developer API; Biobot delivers data via reports and a login-gated platform
+  rather than an open API program.
 url: https://raw.githubusercontent.com/api-evangelist/biobot-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,55 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://biobot.io/wp-content/uploads/2025/12/share.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Wastewater
+- Epidemiology
+- Public Health
+- Data Intelligence
+- Life Sciences
+- Government
+- Biotech
 apis: []
+common:
+- type: Website
+  url: https://biobot.io/
+- type: About
+  url: https://biobot.io/about-biobot/
+- type: Blog
+  url: https://biobotanalytics.substack.com/t/blog
+- type: Login
+  url: https://explore.biobot.io/
+- type: PrivacyPolicy
+  url: https://biobot.io/privacy-policy/
+- type: TermsOfService
+  url: https://biobot.io/terms-of-service/
+- type: GitHubOrganization
+  url: https://github.com/biobotanalytics
+- type: DomainSecurity
+  url: security/biobot-analytics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
